@@ -10,6 +10,7 @@
 
 @interface MakeCard : UIViewController
 {
+    ////////
 }
 
 -(IBAction)Back;
