@@ -70,7 +70,10 @@
 
 -(IBAction)List
 {
-    
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:0.2];
+    [[self view] setFrame:CGRectMake(-250,0,570,480)];
+    [UIView commitAnimations];
 }
 
 @end
