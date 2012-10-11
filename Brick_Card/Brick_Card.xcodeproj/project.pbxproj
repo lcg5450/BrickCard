@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		610C740C1623B6B2008CEBF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610C740B1623B6B2008CEBF7 /* UIKit.framework */; };
+		610C740E1623B6B2008CEBF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610C740D1623B6B2008CEBF7 /* Foundation.framework */; };
+		610C74101623B6B2008CEBF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610C740F1623B6B2008CEBF7 /* CoreGraphics.framework */; };
+		610C74161623B6B2008CEBF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 610C74141623B6B2008CEBF7 /* InfoPlist.strings */; };
+		610C74181623B6B2008CEBF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 610C74171623B6B2008CEBF7 /* main.m */; };
+		610C741C1623B6B2008CEBF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 610C741B1623B6B2008CEBF7 /* AppDelegate.m */; };
+		610C741F1623B6B3008CEBF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610C741E1623B6B3008CEBF7 /* ViewController.m */; };
+		610C74221623B6B3008CEBF7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 610C74201623B6B3008CEBF7 /* ViewController.xib */; };
+		610C74481623E1ED008CEBF7 /* MakeCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 610C74461623E1ED008CEBF7 /* MakeCard.m */; };
+		610C74491623E1ED008CEBF7 /* MakeCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 610C74471623E1ED008CEBF7 /* MakeCard.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		610C74071623B6B2008CEBF7 /* Brick_Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brick_Card.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		610C740B1623B6B2008CEBF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		610C740D1623B6B2008CEBF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		610C740F1623B6B2008CEBF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		610C74131623B6B2008CEBF7 /* Brick_Card-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brick_Card-Info.plist"; sourceTree = "<group>"; };
+		610C74151623B6B2008CEBF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		610C74171623B6B2008CEBF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		610C74191623B6B2008CEBF7 /* Brick_Card-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Brick_Card-Prefix.pch"; sourceTree = "<group>"; };
+		610C741A1623B6B2008CEBF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		610C741B1623B6B2008CEBF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		610C741D1623B6B3008CEBF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		610C741E1623B6B3008CEBF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		610C74211623B6B3008CEBF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		610C74451623E1ED008CEBF7 /* MakeCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MakeCard.h; path = MakeCard/MakeCard.h; sourceTree = "<group>"; };
+		610C74461623E1ED008CEBF7 /* MakeCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MakeCard.m; path = MakeCard/MakeCard.m; sourceTree = "<group>"; };
+		610C74471623E1ED008CEBF7 /* MakeCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MakeCard.xib; path = MakeCard/MakeCard.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		610C74041623B6B2008CEBF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610C740C1623B6B2008CEBF7 /* UIKit.framework in Frameworks */,
+				610C740E1623B6B2008CEBF7 /* Foundation.framework in Frameworks */,
+				610C74101623B6B2008CEBF7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		610C73FC1623B6B2008CEBF7 = {
+			isa = PBXGroup;
+			children = (
+				610C74111623B6B2008CEBF7 /* Brick_Card */,
+				610C740A1623B6B2008CEBF7 /* Frameworks */,
+				610C74081623B6B2008CEBF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		610C74081623B6B2008CEBF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				610C74071623B6B2008CEBF7 /* Brick_Card.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		610C740A1623B6B2008CEBF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				610C740B1623B6B2008CEBF7 /* UIKit.framework */,
+				610C740D1623B6B2008CEBF7 /* Foundation.framework */,
+				610C740F1623B6B2008CEBF7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		610C74111623B6B2008CEBF7 /* Brick_Card */ = {
+			isa = PBXGroup;
+			children = (
+				610C74341623DB55008CEBF7 /* MakeCard */,
+				610C741A1623B6B2008CEBF7 /* AppDelegate.h */,
+				610C741B1623B6B2008CEBF7 /* AppDelegate.m */,
+				610C741D1623B6B3008CEBF7 /* ViewController.h */,
+				610C741E1623B6B3008CEBF7 /* ViewController.m */,
+				610C74201623B6B3008CEBF7 /* ViewController.xib */,
+				610C74121623B6B2008CEBF7 /* Supporting Files */,
+			);
+			path = Brick_Card;
+			sourceTree = "<group>";
+		};
+		610C74121623B6B2008CEBF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				610C74131623B6B2008CEBF7 /* Brick_Card-Info.plist */,
+				610C74141623B6B2008CEBF7 /* InfoPlist.strings */,
+				610C74171623B6B2008CEBF7 /* main.m */,
+				610C74191623B6B2008CEBF7 /* Brick_Card-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		610C74341623DB55008CEBF7 /* MakeCard */ = {
+			isa = PBXGroup;
+			children = (
+				610C74451623E1ED008CEBF7 /* MakeCard.h */,
+				610C74461623E1ED008CEBF7 /* MakeCard.m */,
+				610C74471623E1ED008CEBF7 /* MakeCard.xib */,
+			);
+			name = MakeCard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		610C74061623B6B2008CEBF7 /* Brick_Card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 610C74251623B6B3008CEBF7 /* Build configuration list for PBXNativeTarget "Brick_Card" */;
+			buildPhases = (
+				610C74031623B6B2008CEBF7 /* Sources */,
+				610C74041623B6B2008CEBF7 /* Frameworks */,
+				610C74051623B6B2008CEBF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brick_Card;
+			productName = Brick_Card;
+			productReference = 610C74071623B6B2008CEBF7 /* Brick_Card.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		610C73FE1623B6B2008CEBF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Hyunho Song";
+			};
+			buildConfigurationList = 610C74011623B6B2008CEBF7 /* Build configuration list for PBXProject "Brick_Card" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 610C73FC1623B6B2008CEBF7;
+			productRefGroup = 610C74081623B6B2008CEBF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				610C74061623B6B2008CEBF7 /* Brick_Card */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		610C74051623B6B2008CEBF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610C74161623B6B2008CEBF7 /* InfoPlist.strings in Resources */,
+				610C74221623B6B3008CEBF7 /* ViewController.xib in Resources */,
+				610C74491623E1ED008CEBF7 /* MakeCard.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		610C74031623B6B2008CEBF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610C74181623B6B2008CEBF7 /* main.m in Sources */,
+				610C741C1623B6B2008CEBF7 /* AppDelegate.m in Sources */,
+				610C741F1623B6B3008CEBF7 /* ViewController.m in Sources */,
+				610C74481623E1ED008CEBF7 /* MakeCard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		610C74141623B6B2008CEBF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				610C74151623B6B2008CEBF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		610C74201623B6B3008CEBF7 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				610C74211623B6B3008CEBF7 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		610C74231623B6B3008CEBF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		610C74241623B6B3008CEBF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		610C74261623B6B3008CEBF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brick_Card/Brick_Card-Prefix.pch";
+				INFOPLIST_FILE = "Brick_Card/Brick_Card-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		610C74271623B6B3008CEBF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brick_Card/Brick_Card-Prefix.pch";
+				INFOPLIST_FILE = "Brick_Card/Brick_Card-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		610C74011623B6B2008CEBF7 /* Build configuration list for PBXProject "Brick_Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610C74231623B6B3008CEBF7 /* Debug */,
+				610C74241623B6B3008CEBF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		610C74251623B6B3008CEBF7 /* Build configuration list for PBXNativeTarget "Brick_Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610C74261623B6B3008CEBF7 /* Debug */,
+				610C74271623B6B3008CEBF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 610C73FE1623B6B2008CEBF7 /* Project object */;
+}
